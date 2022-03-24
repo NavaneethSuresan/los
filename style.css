@@ -86,7 +86,9 @@ body {
   display: flex;
 }
 .history .head1 h1 {
-  font-size: 3vw;
+  font-size: 4vw;
+  color: #a4a8b6;
+  font-family: Bebas;
 }
 .history img.bg2 {
   width: 100%;
@@ -101,16 +103,20 @@ body {
 }
 .history .head1 h3 {
   display: block;
-  margin-bottom: auto;
-  font-size: 3vw;
+  margin: auto;
+  font-size: 2vw;
+  color: #41516b;
+  font-family: Bebas;
+  font-weight: 100;
 }
 .para p {
   position: absolute;
   left: 20%;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-right: 10%;
-  color: gray;
-  font-size: 2vw;
+  color: #2e2d2d;
+  font-size: 1.5vw;
+  font-family: avenir;
 }
 .history .half {
   width: 100%;
@@ -150,6 +156,10 @@ body {
   background-color: white;
   margin: 2% 0 0 0;
   font-size: 2vw;
+  color: #a4a8b6;
+}
+.team .head2 h1 {
+  font-size: 4vw;
 }
 .team .head2 {
   display: flex;
@@ -159,12 +169,17 @@ body {
 .team .head2 h3 {
   display: block;
   margin: auto;
+  color: #41516b;
+  font-weight: 100;
+  font-family: Bebas;
 }
 .team p {
   position: absolute;
   left: 40%;
   font-size: smaller;
   margin: 2% 3%;
+  font-family: avenir;
+  color: #2e2d2d;
 }
 .last {
   padding: 3% 0 0 0;
